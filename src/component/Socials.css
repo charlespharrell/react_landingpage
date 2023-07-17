@@ -1,0 +1,66 @@
+.socials_container{
+    display: block;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    text-align: center;
+    padding-top: 20px;
+}
+.email{
+    padding: 1.2rem .5rem 1.2rem .5rem;
+    text-align: center;
+    border-radius: 30px; 
+    font-size: 15px;
+    font-weight: bolder;
+    border: none;
+}
+.go{
+    padding: 1.2rem 2.5rem 1.2rem 2.5rem;
+    border-radius: 30px; 
+    background-color: hsl(12, 88%, 59%) ;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.socials_footer{
+    margin-top: 30px;
+    float: left;
+    list-style-type: none;
+    margin-left: 10%;
+    line-height: 40px;
+    font-size: 25px;
+    color: white;
+}
+.social_footer{
+    margin-top: 30px;
+    float: right;
+    list-style-type: none;
+    margin-right: 10%;
+    line-height: 40px;
+    font-size: 25px;
+    color: white;
+}
+.socials{
+    display: flex;
+    margin-top: 220px;
+    justify-content: space-around;
+    margin-inline: 20%;
+}
+ .svg_logo{
+    align-items: center;
+    color: white;
+}
+.logo{
+    align-items: center;
+    margin-top: 30px;
+    text-align: center;
+}
+.copy{
+    text-align: center;
+    margin-top: 30px;
+    color: hsl(0, 0%, 98%);
+    font-size: 17px;
+} 

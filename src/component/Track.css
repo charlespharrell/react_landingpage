@@ -1,0 +1,55 @@
+.track_container{
+    width: 100%;
+    display: block;
+    margin-top: 40px;
+}
+.track_con{
+    width: 100%;
+    display: block;
+    height: 30vh;
+    /* background-color: blueviolet; */
+    margin-bottom: 80px;
+}
+.track_first{
+    width: 100%;
+    overflow: hidden;
+    height: 7vh;
+    background-color: hsl(13, 100%, 96%);
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    display: flex;
+}
+.num{
+    width: 25%;
+    height: 7vh;
+    background-color: hsl(12, 88%, 59%);
+    border-radius: 25px;
+    padding: 10px;
+    padding-left: 30px;
+    display: inline-block;
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+.title{
+    font-size: 16px;
+    font-weight: bolder;
+    margin-top: 17px;
+    margin-left: 10px;
+    color:hsl(233, 12%, 13%)
+}
+.content{
+    margin-top: 10px;
+    line-height: 36px;
+    font-size: 20px;
+    color: hsl(227, 12%, 61%);
+}
+@media screen and (min-width:1000px) {
+    .track_container{
+        width: 45%;
+        display: block;
+        margin-top: 100px;
+        float: right;
+        padding-right: 4rem;
+    }
+}

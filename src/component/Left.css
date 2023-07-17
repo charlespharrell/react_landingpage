@@ -1,0 +1,88 @@
+
+.left_con{
+    width: 100%;
+    margin-top: 40px;
+    text-align: center;
+}
+.bring{
+    font-size: 45px;
+    font-weight: bolder;
+    line-height: 60px;
+    color: hsl(228, 39%, 23%);
+}
+.manage{
+    margin-top: 10px;
+    line-height: 40px;
+    font-size: 22px;
+    color: hsl(227, 12%, 61%);
+}
+.bring_get{
+    display: inline-block;
+    background-color: hsl(12, 88%, 59%);
+    border-radius: 25px;
+    padding: 1rem 2rem 1rem 2rem;
+    margin-top: 30px;
+}
+.what_con{
+    margin-top: 120px;    
+}
+.what{
+    font-size: 40px;
+    width: 100%;
+    font-weight: bolder;
+    line-height: 55px;
+    color: hsl(228, 39%, 23%);
+}
+.manage_two{
+    margin-top: 10px;
+    line-height: 36px;
+    font-size: 20px;
+    color: hsl(227, 12%, 61%);
+}
+@media screen and (min-width:1000px){
+    .left_con{
+        float: left;
+        text-align: start;
+        width:45%;
+        margin-top: 80px;
+        padding-left: 5rem;
+    }
+     
+    .bring{
+        font-size: 40px;
+        font-weight: bolder;
+        line-height: 45px;
+        color: hsl(228, 39%, 23%);
+    }
+    .manage{
+        margin-top: 20px;
+        line-height: 30px;
+        font-size: 19px;
+        color: hsl(227, 12%, 61%);
+    }
+    .bring_get{
+        display: inline-block;
+        background-color: hsl(12, 88%, 59%);
+        border-radius: 25px;
+        padding: 1rem 2rem 1rem 2rem;
+        margin-top: 30px;
+    }
+    .what_con{
+        margin-top: 170px;   
+    }
+    .what{
+        font-size: 40px;
+        width: 100%;
+        font-weight: bolder;
+        line-height: 45px;
+        color: hsl(228, 39%, 23%);
+    }
+    .manage_two{
+        margin-top: -20px;
+        line-height: 30px;
+        font-size: 20px;
+        color: hsl(227, 12%, 61%);
+    }
+}
+
+/* } */
